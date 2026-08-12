@@ -75,6 +75,7 @@ pip install onnxruntime-gpu
 ## 技术说明
 
 - 人脸检测/识别:[InsightFace](https://github.com/deepinsight/insightface) `buffalo_l` 模型
+- 识别算法:基于 **ArcFace**(Additive Angular Margin Loss)训练的特征网络,类间判别力强,LFW 基准精度 99%+
 - 界面:Tkinter(标准库)+ Pillow
 - 比对方式:L2 归一化后的余弦相似度,阈值默认 0.75
 - 数据格式:`save.json` 为 JSON 数组,每项 `{"name": 姓名, "embedding": [512维向量]}`
