@@ -84,3 +84,7 @@ pip install onnxruntime-gpu
 ## 开源许可
 
 本项目基于 [MIT License](LICENSE) 开源,可自由使用、修改、商用。
+
+## 作者
+
+[Elmh](https://elmh.top)
