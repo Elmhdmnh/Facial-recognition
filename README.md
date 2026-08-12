@@ -79,6 +79,8 @@ pip install onnxruntime-gpu
 - 比对方式:L2 归一化后的余弦相似度,阈值默认 0.75
 - 数据格式:`save.json` 为 JSON 数组,每项 `{"name": 姓名, "embedding": [512维向量]}`
 
+详细的识别原理、系统架构、性能特征与改进路线,见 [技术细节文档](TECHNICAL.md)。
+
 ## 开源许可
 
 本项目基于 [MIT License](LICENSE) 开源,可自由使用、修改、商用。
